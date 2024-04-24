@@ -1,0 +1,299 @@
+
+
+
+
+.navbar-head {
+    width: 100%;
+    /* background-color: var(--main-navbar); */
+    background-color: white;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 0px 7px 0px black;
+    z-index: 873845343;
+    margin-left: -8px;
+}
+
+
+.navbar-head2{
+    width: 95%;
+    margin: auto;
+    height: 75px;
+    display: flex;
+    z-index: 1000;
+    background-color: white;
+
+    /* background-color: var(--main-navbar); */
+}
+
+.navbar-head ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+    /* background-color: var(--main-navbar); */
+
+}
+
+.navbar-head ul li{
+    list-style: none;
+    background-color: white;
+    /* background-color: var(--main-navbar); */
+}
+
+.navbar-head ul li a{
+    text-decoration: none;
+    color: var(--main-navbar-orange);
+    font-size: 22px;
+    font-weight: 900;
+    font-family: Helvetica,sans-serif;
+    background-color: white;
+    /* background-color: var(--main-navbar); */
+}
+
+.navbar-ul{
+    width: 60rem;
+    justify-content: space-between;
+    margin-left: 17rem;
+    background-color: white;
+    /* background-color: var(--main-navbar); */
+
+}
+
+
+.li-span{
+    margin-left: 3px;
+    background-color: white;
+    /* background-color: var(--main-navbar); */
+}
+
+
+.homeIcon{
+    font-size: 24px;
+}
+
+
+
+
+.login-main-div{
+    height: 220px;
+    width: 280px;
+    float: right;
+    margin-top: -10px;
+    background-color: white;
+    /* background-color: var(--main-heading-white); */
+    box-shadow: 0px 2px 7px 1px black;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+.login-main-div ul{
+    display: grid;
+}
+
+
+.login-second-div{
+    width: 95%;
+    margin: auto;
+    line-height: 30px;
+    /* background-color: var(--main-navbar); */
+}
+
+.login-span{
+    /* color: var(--main-navbar-black); */
+    background-color: white;
+    margin-left: -25px;
+}
+
+.login-span2{
+    float: right;
+    margin-left: 80px;
+    background-color: white;
+}
+
+.login-span2 a{
+    /* color: var(--main-login2-grey); */
+    color: gray;
+    background-color: white;
+}
+
+.login-button{
+    height: 28px;
+    width: 64px;
+    background: var(--main-navbar-orange);
+    border: none;
+    border-radius: 4px;
+    /* color: var(--main-heading-white); */
+    color: white;
+    cursor: pointer;
+    /* display: block; */
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .nav1{
+        width: 90%;
+        height: 100%;
+        background-color: rgba(251, 251, 251, 0.88);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ul2{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+    .navbar-head {
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        border: none;
+        /* box-shadow: 0px 0px 7px 0px black; */
+        z-index: 873845343;
+        margin-left: -8px;
+        background-color: white;
+    }
+
+
+    .navbar-head2{
+        width: 85%;
+        margin: auto;
+        height: 100px;
+        display: flex;
+        z-index: 1000;
+        background-color: white;
+    }
+
+    .homeIcon{
+        font-size: 44px;
+    }
+
+    .responsive-logo{
+        height: 70px;
+        width: 150px;
+    }
+
+    .mobile-span-none{
+        display: none;
+    }
+
+    .li-span{
+        display: none;
+    }
+
+
+    .navbar-head ul{
+        width: 300px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        height: 70px;
+        margin-left: -200px;
+        margin-top: 13px;
+    
+    }
+    
+    .navbar-head ul li{
+        list-style: none;
+        background-color: white;
+        /* background-color: var(--main-navbar); */
+    }
+    
+    .navbar-head ul li a{
+        text-decoration: none;
+        background-color: white;
+    }
+
+
+
+
+
+
+
+.login-main-div{
+    height: 220px;
+    width: 280px;
+    float: right;
+    margin-top: -10px;
+    margin-left: -250px;
+    background-color: white;
+    box-shadow: 0px 2px 7px 1px black;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+.login-main-div ul{
+    display: grid;
+    margin-left: 0px;
+}
+
+
+.login-second-div{
+    width: 95%;
+    margin: auto;
+    line-height: 30px;
+    /* background-color: var(--main-navbar); */
+}
+
+.login-span{
+    /* color: var(--main-navbar-black); */
+    background-color: white;
+    margin-left: -25px;
+}
+
+.login-span2{
+    float: right;
+    margin-left: 80px;
+    background-color: white;
+}
+
+.login-span2 a{
+    /* color: var(--main-login2-grey); */
+    color: gray;
+    background-color: white;
+}
+
+.login-button{
+    height: 28px;
+    width: 64px;
+    background: var(--main-navbar-orange);
+    border: none;
+    border-radius: 4px;
+    /* color: var(--main-heading-white); */
+    color: white;
+    cursor: pointer;
+    /* display: block; */
+    font-weight: 900;
+}
+
+
+}
+
+
+
+

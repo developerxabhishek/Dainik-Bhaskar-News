@@ -1,0 +1,25 @@
+
+.dark-theme{
+  --main-heading-white: #333;
+  --main-title-blue: #3498db;
+  --main-navbar-black: #fff;
+}
+
+.light-theme{
+  --main-heading-white: #fff;
+  --main-title-blue: #3498db;
+  --main-navbar-black: #333;
+}
+
+
+*{
+  font-family: serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-heading-white);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

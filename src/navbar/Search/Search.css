@@ -1,0 +1,118 @@
+
+.dark-theme {
+    --main-heading-white: #333;
+    --main-title-blue: #3498db;
+    --main-navbar-black: #fff;
+    --main-navbar: #fafafa;
+    --main-navbar-orange: #f89c1d;
+    --main-login2-grey: gray;
+    --main-light-bg: #95959536;
+}
+
+.light-theme {
+    --main-heading-white: #fff;
+    --main-title-blue: #3498db;
+    --main-navbar-black: #333;
+    --main-navbar: #fafafa;
+    --main-navbar-orange: #f89c1d;
+    --main-login2-grey: gray;
+    --main-light-bg: #95959536;
+}
+
+
+.search-main-div{
+    width: 80%;
+    margin: auto;
+    height: 530px;
+    position: relative;
+}
+
+.search-second-div{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.search-input-text{
+    display: flex;
+    margin-top: 30px;
+}
+
+.input-div{
+    height: 60px;
+    width: 50rem;
+    font-size: 25px;
+    margin-left: 2rem;
+    border: none;
+    outline: none;
+    color: var(--main-navbar-black);
+
+}
+
+.search-img-icon{
+    margin-top: 15px;
+    margin-left: 4rem;
+}
+
+.button-text ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+
+
+.buttonn-li{
+    height: 50px;
+    /*width: 160px; */
+    width: auto;
+    border: 1px solid #eaeaea;
+    color: var(--main-navbar-black);
+    padding: 13px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 17px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.buttonn-li:hover{
+    border: 1px solid #f89c1d;
+    color: #f89c1d;
+}
+
+@media screen and (max-width: 767px) {
+
+    .search-second-div {
+        position: static;
+        margin: 20px auto; 
+    }
+
+    .search-input-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-div {
+        width: 100%;
+        max-width: none;
+        margin: 10px 0; 
+    }
+
+    .search-img-icon {
+        margin: 0;
+    }
+
+    .button-text ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttonn-li {
+        padding: 10px 20px;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,281 @@
+
+
+
+.dark-theme{
+
+    --main-heading: #333;
+    --main-title-blue: #3498db;
+    --main-navbar-black: #fff;
+    
+  }
+  
+  .light-theme{
+  
+    --main-heading: #fff;
+    --main-title-blue: #3498db;
+    --main-navbar-black: #333;
+    
+  }
+
+
+.AllCompo-main-div{
+    width: 95%;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+ 
+        /* Category 👍 */
+
+
+.category-div{
+    width: 300px;
+    height: auto;
+    line-height: 60px;
+    /* position: sticky; */
+}
+
+.category-div ul li{
+    list-style: none;
+    
+}
+
+.category-div ul li:hover{
+    background-color: rgb(247, 247, 247);
+}
+
+.category-div ul li a:hover{
+    background-color: var(--main-heading);
+
+}
+
+.category-div ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 900;
+    margin: 55px;
+    color: var(--main-navbar-black);
+    letter-spacing: 1px;
+    margin-left: -30px;
+    background-color: var(--main-heading);
+}
+
+
+
+
+       /* MainContainer 👍 */
+
+.main-container{
+    height: auto;
+    width: 650px;
+    /* box-shadow: 1px 1px 1px 2px rgb(170, 170, 170); */
+    border: 1px solid rgb(203, 203, 203);
+
+}
+
+.main-second-container{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-third-container{
+    height: auto;
+}
+
+.MainContainer-title{
+    font-size: 24px;
+    line-height: 36px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.MainContainer-pic{
+    width: 450px;
+    height: 520px;
+}
+
+.MainContainer-pic ul{
+    list-style: none;
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.social-icon{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.container-div-ul{
+    margin-left: 370px;
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+        /* small componenta 👍 */
+
+
+
+/* .small-component-head{
+    height: 190px;
+    width: 100%;
+}
+
+
+.small-component-second-head{
+    width: 96%;
+    margin: auto;
+    line-height: 35px;
+    height: 190px;
+} */
+
+
+.small-component-third-head{
+    height: 120px;
+    display: flex;
+}
+
+
+.third-head-title{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--main-navbar-black);
+    font-size: 900;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.small-component-third-photo{
+    margin-top: 13px;
+}
+
+.MainContainer-third-pic ul{
+    list-style: none;
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+
+
+.third-title{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    .AllCompo-main-div{
+        display: grid;
+        width: 98%;
+        margin: auto;
+    }
+
+
+    .category-div{
+        width: 40rem;
+        margin: auto;
+        justify-content: space-between;
+        border: none;
+    }
+
+    .category-ul-div{
+ 
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        box-shadow: rgb(45, 45, 45) 0px 0.5px 0.8px 0px;
+        position: unset;
+    }
+
+    .category-div ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        overflow-x: scroll;
+        background-color: white;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    .category-div ul::-webkit-scrollbar{
+        height: 3px;
+        width: 0px;
+    }
+    
+    .category-div ul li{
+        white-space: nowrap;
+        list-style: none;
+        display: flex;
+        background-color: white;
+        width: 250px;
+        height: 50px;
+        align-items: center;
+    }
+    
+    .category-div ul li:hover{
+        background-color: rgb(247, 247, 247);
+    }
+    
+    .category-div ul li a:hover{
+        background-color: var(--main-heading);
+    
+    }
+    
+    .category-div ul li a{
+        height: auto;
+        text-decoration: none;
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 22px;
+        font-weight: 900;
+        margin: 5px;
+        margin-right: 10px;
+        color: var(--main-navbar-black);
+        background-color: var(--main-heading);
+    }
+
+
+    .category-img{
+        margin-top: 10px;
+    }
+
+
+    .main-container{
+        margin-top: 20px;
+    }
+
+
+} 
+
+
+
+
+
+
+
+
