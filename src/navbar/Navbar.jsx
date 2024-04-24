@@ -14,8 +14,6 @@ import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
-
-
   const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
   const [isVisible, setIsVisible] = useState(false);
@@ -65,17 +63,17 @@ const Navbar = () => {
 
 
          <ul >    
-            <Link to="/" style={{textDecoration:"none"}}> <span className="mobile-span-none"> <li style={{display:"flex"}}> <HomeIcon className="homeIcon" style={{ color: 'black',backgroundColor:"white"}} />  <a>  <span className="li-span">Home</span> </a> </li> </span> </Link>
+            <Link to="/" style={{textDecoration:"none"}}> <span className="mobile-span-none"> <li style={{display:"flex"}}> <HomeIcon className="homeIcon" style={{ color: 'black',backgroundColor:"white", marginTop:"3px"}} />  <a>  <span className="li-span">Home</span> </a> </li> </span> </Link>
 
-            <Link to="/gallery" style={{textDecoration:"none"}}> <span className="mobile-span-none"> <li style={{display:"flex"}}> <PlayCircleOutlineIcon className="homeIcon" style={{ color: 'black', backgroundColor:"white" }}/> <a href="#">   <span className="li-span">Gallery</span>   </a></li> </span> </Link>
+            <Link to="/gallery" style={{textDecoration:"none"}}> <span className="mobile-span-none"> <li style={{display:"flex"}}> <PlayCircleOutlineIcon className="homeIcon" style={{ color: 'black', backgroundColor:"white", marginTop:"3px" }}/> <a href="#">   <span className="li-span">Gallery</span>   </a></li> </span> </Link>
 
-            <Link to="/search" style={{textDecoration:"none"}}> <li style={{display:"flex"}}> <span className="mobile-icon1"> <SearchIcon className="homeIcon" style={{ color: 'black', backgroundColor:"white" }}/>  </span>   <a href="#">   <span className="li-span">Search</span>   </a> </li> </Link>
+            <Link to="/search" style={{textDecoration:"none"}}> <li style={{display:"flex"}}> <span className="mobile-icon1"> <SearchIcon className="homeIcon" style={{ color: 'black', backgroundColor:"white", marginTop:"3px" }}/>  </span>   <a href="#">   <span className="li-span">Search</span>   </a> </li> </Link>
 
             <span className="mobile-span-none">  <li><hr style={{height:"27px", width:"0.1px", color:"gray"}}/></li>  </span>
 
-            <Link to="/webstory" style={{textDecoration:"none",backgroundColor:"white"}}> <li style={{display:"flex"}}> <span className="mobile-icon"> <img style={{backgroundColor:"white"}} src="https://cdn-icons-png.flaticon.com/512/733/733474.png" width="24px" height="24px" alt="img"/> </span>  <a href="#">  <span className="li-span">Web-stories</span>  </a></li> </Link>
+            <Link to="/webstory" style={{textDecoration:"none",backgroundColor:"white"}}> <li style={{display:"flex"}}> <span className="mobile-icon"> <img style={{backgroundColor:"white",marginTop:"3px"}} src="https://cdn-icons-png.flaticon.com/512/733/733474.png" width="24px" height="24px" alt="img" /> </span>  <a href="#">  <span className="li-span">Web-stories</span>  </a></li> </Link>
 
-            <span className="mobile-span-none"> <li style={{display:"flex"}}> <img src="https://banner2.cleanpng.com/20180326/vvw/kisspng-computer-icons-newspaper-news-media-source-news-5ab99e2d93bf60.1641143115221140936052.jpg" width="24px" height="24px" alt="img" />  <a href="#"> <span className="li-span"> E-Paper</span>  </a></li> </span>
+            <span className="mobile-span-none"> <li style={{display:"flex"}}> <img src="https://banner2.cleanpng.com/20180326/vvw/kisspng-computer-icons-newspaper-news-media-source-news-5ab99e2d93bf60.1641143115221140936052.jpg" width="24px" height="24px" alt="img" style={{marginTop:"3px"}} />  <a href="#"> <span className="li-span"> E-Paper</span>  </a></li> </span>
 
             <li style={{display:"flex"}}>  <a onClick={handleClick} href="#"> <span className="mobile-icon"> <img src="https://cdn-icons-png.flaticon.com/128/860/860784.png" width="25px" height="25px" style={{backgroundColor:"white"}} alt="img"/><KeyboardArrowDownIcon style={{ fontSize: 31, color: 'black', backgroundColor:"white" }}/> </span> </a>  </li>
          </ul>

@@ -41,9 +41,9 @@
     
 }
 
-.category-div ul li:hover{
+/* .category-div ul li:hover{
     background-color: rgb(247, 247, 247);
-}
+} */
 
 .category-div ul li a:hover{
     background-color: var(--main-heading);
